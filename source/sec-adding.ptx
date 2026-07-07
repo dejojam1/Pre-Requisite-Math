@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-adding" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Adding and Subtracting Fractions</title>
+
+  <p> When adding or subtracting fractions with the same denominator (a common denominator), the numerators can be added or subtracted; 
+  <md>\frac{a}{c}\pm\frac{b}{c}=\frac{a\pm b}{c}.</md></p>
+
+  <example>
+    <title>Adding and Subtracting Fractions with a Common Denominator</title>
+    <statement>
+      <p>
+        Calculate <m>\frac{5}{7}+\frac{4}{7}</m> and <m>\frac{5}{7}-\frac{4}{7}</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Since these fractions have the same denominator, we can add the numerators.
+        The denominator remains the same, so 
+         <md>\frac{5}{7}+\frac{4}{7}=\frac{5+4}{7}=\frac{9}{7}.</md>
+        Similarly, 
+         <md>\frac{5}{7}-\frac{4}{7}=\frac{5-4}{7}=\frac{1}{7}.</md>
+      </p>
+    
+    </solution>
+  </example>
+
+  <exercise label="ww-fraction-addition">
+    <title>Adding Fractions with a Common Denominator</title>
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(13,9);
+        </pg-code>
+        <statement>
+            <p>
+                Evaluate the following expression. 
+                Provide your answer as a reduced fraction.
+            </p>
+            <p>
+                <m>\frac{8}{9} + \frac{5}{9} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+        <!-- <solution>
+            <p>
+                Because the denominators are identical, add the numerators together while keeping the denominator the same:
+            </p>
+            <p>
+                <m>\frac{8}{9} + \frac{5}{9} = \frac{8 + 5}{9} = \frac{13}{9}</m>
+            </p>
+        </solution> -->
+    </webwork>
+</exercise>
+
+<p>What if the fractions have different numbers in the denominator? Then we first need to write the fractions
+    in a different (but equivalent) form so that they have a common denominator. A typical choice of common denominator
+    is the least common multiplier (LCM) of the two denominators, but an easy choice to make is to use their product. We multiply
+    both the numerator and denominator of each fraction by the other denominator;
+
+    <md>
+        \frac{a}{c}\pm\frac{b}{d}=\frac{ad}{cd}\pm\frac{bc}{dc}.
+    </md>
+    Since <m>cd=dc</m>, these fractions have a common denominator, and so we can add or subtract as in the example above.
+</p>
+
+<example>
+    <title>Adding and Subtracting Fractions with Different Denominators</title>
+    <statement>
+      <p>
+        Calculate <m>\frac{5}{8}+\frac{4}{7}</m> and <m>\frac{5}{8}-\frac{4}{7}</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        These fractions have different denominators, 7 and 8. We first write them over a common denominator, <m>7\times 8=56</m>,
+         <md>\frac{5}{8}+\frac{4}{7}=\frac{5\times 7}{8\times 7}+\frac{4\times 8}{7\times 8}=\frac{35}{56}+\frac{32}{56}.</md>
+         Now they have the same denominator, and so we can add the numerators,
+         <md>\frac{35}{56}+\frac{32}{56}=\frac{35+32}{56}=\frac{67}{56}.</md>
+        Similarly, 
+         <md>\frac{5}{8}-\frac{4}{7}=\frac{35}{56}-\frac{32}{56}=\frac{35-32}{56}=\frac{3}{56}.</md>
+      </p>
+    
+    </solution>
+  </example>
+
+  <exercise label="ww-fraction-addition2">
+    <title>Subtracting Fractions with Different Denominators</title>
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(8,45);
+        </pg-code>
+        <statement>
+            <p>
+                Evaluate the following expression. 
+                Provide your answer as a reduced fraction.
+            </p>
+            <p>
+                <m>\frac{7}{9} - \frac{3}{5} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+
+<example>
+    <title>Using the LCM</title>
+    <statement>
+      <p>
+        Calculate <m>\frac{3}{4}+\frac{5}{8}</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        These fractions have different denominators, 4 and 8. We could use a common denominator of <m>4\times 8=32</m>, but
+        we can instead use any common multiple of 4 and 8. The LCM of 4 and 8 is 8, and so we write the fractions over a common denominator of 8.</p>
+        <p>This requires multiplying the numerator and denominator of the first fraction by 2,
+         <md>\frac{3}{4}+\frac{5}{8}=\frac{3\times 2}{4\times 2}+\frac{5}{8}=\frac{6}{8}+\frac{5}{8}.</md>
+         Now they have the same denominator, and so we can add the numerators,
+         <md>\frac{6}{8}+\frac{5}{8}=\frac{6+5}{8}=\frac{11}{8}.</md>
+      </p>
+    
+    </solution>
+  </example>
+
+  <subsection>
+  <title>Exercises</title>
+
+  <exercise label="ww-fraction-addition3">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(8,7);
+        </pg-code>
+        <statement>
+            <p>
+                Evaluate the following expression. 
+                Provide your answer as a reduced fraction.
+            </p>
+            <p>
+                <m>\frac{6}{7} + \frac{2}{7} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-fraction-addition4">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(14,15);
+        </pg-code>
+        <statement>
+            <p>
+                Evaluate the following expression. 
+                Provide your answer as a reduced fraction.
+            </p>
+            <p>
+                <m>\frac{1}{3} + \frac{3}{5} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-fraction-addition5">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(10,18);
+        </pg-code>
+        <statement>
+            <p>
+                Evaluate the following expression. 
+                Provide your answer as a reduced fraction.
+            </p>
+            <p>
+                <m>\frac{4}{9} - \frac{1}{6} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<p>More to be added</p>
+
+</subsection>
+</section>

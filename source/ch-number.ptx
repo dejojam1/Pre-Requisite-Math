@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-number" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Number</title>
+
+  <!-- <introduction>
+  </introduction> -->
+
+  <!-- include sections -->
+  <xi:include href="sec-irrational.ptx" />
+  <xi:include href="sec-gcd.ptx" />
+  <xi:include href="sec-prime.ptx" />
+
+
+</chapter>

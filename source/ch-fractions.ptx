@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Fractions</title>
+
+  <!-- <introduction>
+  </introduction> -->
+
+  <!-- include sections -->
+  <xi:include href="sec-percentages.ptx" />
+  <xi:include href="sec-adding.ptx" />
+  <xi:include href="sec-multiply.ptx" />
+  <xi:include href="sec-divide.ptx" />
+
+
+</chapter>

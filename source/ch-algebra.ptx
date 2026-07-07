@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Algebra</title>
+
+  <!-- <introduction>
+  </introduction> -->
+
+  <!-- include sections -->
+  <xi:include href="sec-linearequations.ptx" />
+  <xi:include href="sec-quadratic.ptx" />
+  <xi:include href="sec-exponential.ptx" />
+
+
+</chapter>
