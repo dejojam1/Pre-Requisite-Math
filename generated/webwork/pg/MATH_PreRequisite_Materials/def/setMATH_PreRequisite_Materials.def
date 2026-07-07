@@ -1,0 +1,27 @@
+openDate          = 01/01/2027 at 12:00am
+dueDate           = 12/31/2027 at 10:00pm
+answerDate        = 12/31/2027 at 10:00pm
+paperHeaderFile   = MATH_PreRequisite_Materials/header/MATH_PreRequisite_Materials.pg
+screenHeaderFile  = MATH_PreRequisite_Materials/header/MATH_PreRequisite_Materials.pg
+description       = MATH Pre-Requisite Materials
+problemListV2
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_2-Adding_Fractions_with_a_Common_Denominator.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_4-Subtracting_Fractions_with_Different_Denominators.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_6.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_7.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_8.pg
+problem_id = 8
+problem_end
