@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-testing" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Testing</title>
+
+  <!-- <introduction>
+  </introduction> -->
+
+  <!-- include sections -->
+
+<p>
+Lists:
+<ol>
+<li>
+Item 1
+</li>
+<li>
+<m>3x+2=4</m>
+</li>
+</ol>
+</p>
+
+<p>
+<ul>
+<li>
+Another item 1
+</li>
+<li>
+<m>x=\frac{2}{3}</m>
+</li>
+</ul>
+</p>
+
+<p>
+A Table:
+<table>
+<title>Just testing stuff</title>
+<tabular>
+<row header="yes" bottom="medium">
+<cell>
+Heading 1
+</cell>
+<cell>
+Heading 2
+</cell>
+<cell>
+Heading 3
+</cell>
+<cell>
+Heading 4
+</cell>
+<cell>
+Heading 5
+</cell>
+</row>
+<row>
+<cell>
+5
+</cell>
+<cell>
+6
+</cell>
+<cell>
+7
+</cell>
+<cell>
+8
+</cell>
+<cell>
+<m>9x-\frac{1}{2}</m>
+</cell>
+</row>
+</tabular>
+</table>
+</p>
+
+<figure xml:id="fig-example">
+    <title>The UofM Logo</title>
+    <image source="uofmimage.png" width="25%">
+    <description>The University of Manitoba's logo.</description>
+    </image>
+</figure>
+
+</chapter>

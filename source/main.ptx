@@ -12,6 +12,7 @@
     <xi:include href="./ch-fractions.ptx" />
     <xi:include href="./ch-number.ptx" />
     <xi:include href="./ch-algebra.ptx" />
+    <xi:include href="./ch-testing.ptx" />
 
 
 
