@@ -33,6 +33,7 @@ Another item 1
 
 <p>
 A Table:
+</p>
 <table>
 <title>Just testing stuff</title>
 <tabular>
@@ -72,12 +73,12 @@ Heading 5
 </row>
 </tabular>
 </table>
-</p>
 
 <figure xml:id="fig-example">
     <title>The UofM Logo</title>
+    <caption>The UofM Logo</caption>
     <image source="uofmimage.png" width="25%">
-    <description>The University of Manitoba's logo.</description>
+    <description><p>The University of Manitoba's logo.</p></description>
     </image>
 </figure>
 
