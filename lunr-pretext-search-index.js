@@ -161,6 +161,33 @@ var ptx_lunr_docs = [
   "number": "3.3",
   "title": "Exponential Functions",
   "body": " Exponential Functions  Coming soon!  "
+},
+{
+  "id": "ch-testing",
+  "level": "1",
+  "url": "ch-testing.html",
+  "type": "Chapter",
+  "number": "4",
+  "title": "Testing",
+  "body": " Testing    Lists:  Item 1         Another item 1       A Table:  Just testing stuff    Heading 1  Heading 2  Heading 3  Heading 4  Heading 5    5  6  7  8          The UofM Logo   The University of Manitoba's logo.    "
+},
+{
+  "id": "ch-testing-4-1",
+  "level": "2",
+  "url": "ch-testing.html#ch-testing-4-1",
+  "type": "Table",
+  "number": "4.0.1",
+  "title": "Just testing stuff",
+  "body": " Just testing stuff    Heading 1  Heading 2  Heading 3  Heading 4  Heading 5    5  6  7  8       "
+},
+{
+  "id": "fig-example",
+  "level": "2",
+  "url": "ch-testing.html#fig-example",
+  "type": "Figure",
+  "number": "4.0.2",
+  "title": "The UofM Logo",
+  "body": " The UofM Logo   The University of Manitoba's logo.   "
 }
 ]
 
