@@ -57,7 +57,7 @@
 
 <p>What if the fractions have different numbers in the denominator? Then we first need to write the fractions
     in a different (but equivalent) form so that they have a common denominator. A typical choice of common denominator
-    is the least common multiplier (LCM) of the two denominators, but an easy choice to make is to use their product. We multiply
+    is the least common multiple (LCM) of the two denominators, but an easy choice to make is to use their product. We multiply
     both the numerator and denominator of each fraction by the other denominator;
 
     <md>
@@ -181,7 +181,7 @@
             Context("Fraction-NoDecimals");
             
             # Define the exact answer
-            $ans = Fraction(10,18);
+            $ans = Fraction(5,18);
         </pg-code>
         <statement>
             <p>
