@@ -44,7 +44,7 @@ TEXT(beginproblem());
 Context("Fraction-NoDecimals");
 
 # Define the exact answer
-$ans = Fraction(10,18);
+$ans = Fraction(5,18);
 
 ############################################################
 # Body

@@ -6,7 +6,7 @@
 </statement>
     <answer>
       <p>
-        <m>{\frac{5}{9}}</m>
+        <m>{\frac{5}{18}}</m>
       </p>
     </answer>
   </static>
@@ -58,7 +58,7 @@ TEXT(beginproblem());
 Context("Fraction-NoDecimals");
 
 # Define the exact answer
-$ans = Fraction(10,18);
+$ans = Fraction(5,18);
 
 ############################################################
 # Body
