@@ -313,7 +313,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Irrational Numbers",
-  "body": " Irrational Numbers  Coming soon!  "
+  "body": " Irrational Numbers  Irrational numbers are ones that cannot be written as fractions. We will not go into much detail until later in the course, but there are two common types of irrational numbers that you should be aware of:     , and  square roots.    You are probably quite familiar with some square roots, such as , , and , as 1, 4, and 9 are perfect squares. Square roots of other numbers can be more challenging to work with.   Square Root of 3   How could we determine where to place on a number line?    If we had a calculator, we could calculate . Without a calculator we cannot expect to be this precise, but we should be able to get an idea of how large this number is by comparing with other values.  We know that and . Now The square root function always increases; a greater number has a greater square root, and a lower number has a lower square root. This means that or in other words   Note also that so we might not expect to be close to the left-hand side of the interval between 1 and 2. Therefore we might guess that should go somewhere between 1.5 and 2. This isn't very precise, but it gives us a general idea of the size of for comparison with other numbers.  If you wanted to narrow down the placement, you could calculate This confirms that should be to the right of 1.5 on the number line. We could then calculate Then should be slightly to the left of 1.75 on the number line. This process could be continued to the level of accuracy desired.     Square Root of 7    On a number line, would be placed between which two consecutive integers (whole numbers)? (Provide two consecutive integers (whole numbers).)                    Exercises  To be added   "
+},
+{
+  "id": "sec-irrational-5",
+  "level": "2",
+  "url": "sec-irrational.html#sec-irrational-5",
+  "type": "Example",
+  "number": "2.1.1",
+  "title": "Square Root of 3.",
+  "body": " Square Root of 3   How could we determine where to place on a number line?    If we had a calculator, we could calculate . Without a calculator we cannot expect to be this precise, but we should be able to get an idea of how large this number is by comparing with other values.  We know that and . Now The square root function always increases; a greater number has a greater square root, and a lower number has a lower square root. This means that or in other words   Note also that so we might not expect to be close to the left-hand side of the interval between 1 and 2. Therefore we might guess that should go somewhere between 1.5 and 2. This isn't very precise, but it gives us a general idea of the size of for comparison with other numbers.  If you wanted to narrow down the placement, you could calculate This confirms that should be to the right of 1.5 on the number line. We could then calculate Then should be slightly to the left of 1.75 on the number line. This process could be continued to the level of accuracy desired.   "
+},
+{
+  "id": "ww-squareroot",
+  "level": "2",
+  "url": "sec-irrational.html#ww-squareroot",
+  "type": "Checkpoint",
+  "number": "2.1.2",
+  "title": "Square Root of 7.",
+  "body": " Square Root of 7    On a number line, would be placed between which two consecutive integers (whole numbers)? (Provide two consecutive integers (whole numbers).)                  "
 },
 {
   "id": "sec-gcd",
@@ -331,61 +349,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Prime Numbers",
-  "body": " Prime Numbers  Coming soon!  "
+  "body": " Prime Numbers  A prime number is one with exactly two positive divisors, 1 and itself. For example, 2 is a prime number, as it is only divisible by 1 and 2. On the other hand, 4 is not a prime number because it is divisible by 2 in addition to 1 and 4. Note that 1 is not considered a prime number, because it only has one positive divisor, which is itself.  To find the prime divisors of a given number, we will find one divisor, factor it out, and then repeat, until we are left with only primes.   Prime Factors   Find all prime factors of 5460.    We first need to find one divisor of 5460. Some easier divisors to identify are 2, 5, and 10. In this case, the number is even, so it is divisible by 2. It also ends in a zero, so it is divisible by 10 (and thus also 5). We could start with any of these, but the simplest calculation is to divide by 10: Now 546 is an even number, and so it is divisible by 2. We can factor out this 2 as well: There are no more factors of 2, since 273 is an odd number. Since 273 doesn't end in a 5 or 0, there are also no more factors of 5.  Another easier factor to check for is 3. If a number is divisible by 3 then the sum of its digits is also divisible by 3. The sum of the digits of 273 is . This sum is divisible by 3 since , which tells us that 273 is divisible by 3. Factoring out the 3 gives Now the digits of 91 add to 10, which is not divisible by 3, so there are no more factors of 3. Other prime factors are more difficult to test for. However, we are limited in the size of the factors we might be looking for. We know that . If 91 is not prime, then it has another prime factor that is less than 10. We know that 2, 3, and 5 are not prime factors of 91. The only remaining possibility is 7, so we can test this using division, finding that . These are both prime, and so we have a prime factorization of The prime factors are 2, 3, 5, 7, and 13.     Prime Factors    Determine the prime factors of 495. (Provide the factors in increasing order.)  , ,                        Exercises  To be added   "
 },
 {
-  "id": "sec-linearequations",
-  "level": "1",
-  "url": "sec-linearequations.html",
-  "type": "Section",
-  "number": "3.1",
-  "title": "Solving Linear Equations",
-  "body": " Solving Linear Equations  Coming soon!  "
-},
-{
-  "id": "sec-quadratic",
-  "level": "1",
-  "url": "sec-quadratic.html",
-  "type": "Section",
-  "number": "3.2",
-  "title": "Quadratic Equations",
-  "body": " Quadratic Equations  Coming soon!  "
-},
-{
-  "id": "sec-exponential",
-  "level": "1",
-  "url": "sec-exponential.html",
-  "type": "Section",
-  "number": "3.3",
-  "title": "Exponential Functions",
-  "body": " Exponential Functions  Coming soon!  "
-},
-{
-  "id": "ch-testing",
-  "level": "1",
-  "url": "ch-testing.html",
-  "type": "Chapter",
-  "number": "4",
-  "title": "Testing",
-  "body": " Testing    Lists:  Item 1         Another item 1       A Table:   Just testing stuff    Heading 1  Heading 2  Heading 3  Heading 4  Heading 5    5  6  7  8         The UofM Logo  The UofM Logo   The University of Manitoba's logo.    "
-},
-{
-  "id": "ch-testing-5",
+  "id": "sec-prime-4",
   "level": "2",
-  "url": "ch-testing.html#ch-testing-5",
-  "type": "Table",
-  "number": "4.0.1",
-  "title": "Just testing stuff",
-  "body": " Just testing stuff    Heading 1  Heading 2  Heading 3  Heading 4  Heading 5    5  6  7  8       "
+  "url": "sec-prime.html#sec-prime-4",
+  "type": "Example",
+  "number": "2.3.1",
+  "title": "Prime Factors.",
+  "body": " Prime Factors   Find all prime factors of 5460.    We first need to find one divisor of 5460. Some easier divisors to identify are 2, 5, and 10. In this case, the number is even, so it is divisible by 2. It also ends in a zero, so it is divisible by 10 (and thus also 5). We could start with any of these, but the simplest calculation is to divide by 10: Now 546 is an even number, and so it is divisible by 2. We can factor out this 2 as well: There are no more factors of 2, since 273 is an odd number. Since 273 doesn't end in a 5 or 0, there are also no more factors of 5.  Another easier factor to check for is 3. If a number is divisible by 3 then the sum of its digits is also divisible by 3. The sum of the digits of 273 is . This sum is divisible by 3 since , which tells us that 273 is divisible by 3. Factoring out the 3 gives Now the digits of 91 add to 10, which is not divisible by 3, so there are no more factors of 3. Other prime factors are more difficult to test for. However, we are limited in the size of the factors we might be looking for. We know that . If 91 is not prime, then it has another prime factor that is less than 10. We know that 2, 3, and 5 are not prime factors of 91. The only remaining possibility is 7, so we can test this using division, finding that . These are both prime, and so we have a prime factorization of The prime factors are 2, 3, 5, 7, and 13.   "
 },
 {
-  "id": "fig-example",
+  "id": "ww-primes",
   "level": "2",
-  "url": "ch-testing.html#fig-example",
-  "type": "Figure",
-  "number": "4.0.2",
-  "title": "The UofM Logo",
-  "body": " The UofM Logo  The UofM Logo   The University of Manitoba's logo.   "
+  "url": "sec-prime.html#ww-primes",
+  "type": "Checkpoint",
+  "number": "2.3.2",
+  "title": "Prime Factors.",
+  "body": " Prime Factors    Determine the prime factors of 495. (Provide the factors in increasing order.)  , ,                      "
 }
 ]
 
