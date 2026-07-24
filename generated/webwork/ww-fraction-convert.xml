@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ww-fraction-convert" assembly-id="ww-fraction-convert">
+  <static seed="1">
+    <statement><p>Write <m>\frac{43}{9}</m> as a mixed fraction.</p>
+<p><m>\frac{43}{9} =</m> <fillin characters="10" name="AnSwEr0001"/><fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>{\frac{7}{9}}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="MATH_PreRequisite_Materials/1_1_2-Converting_to_a_Mixed_Fraction.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.2)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextFraction.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+# Set the math environment to expect fraction format answers
+Context("Fraction-NoDecimals");
+
+# Define the exact answer
+$int = 4;
+$frac = Fraction(7,9);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Write [`\frac{43}{9}`] as a mixed fraction.
+
+[`\frac{43}{9} = `] [_]{$int}{10}[_]{$frac}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

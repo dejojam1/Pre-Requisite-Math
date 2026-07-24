@@ -1,0 +1,64 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.4)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextFraction.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+# Set the math environment to expect fraction format answers
+Context("Fraction-NoDecimals");
+
+# Define the exact answer
+$ans = Fraction(32,27);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the following expression. Provide your answer as a reduced fraction.
+
+[`\frac{4}{3} \div \frac{9}{8} = `] [_]{$ans}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

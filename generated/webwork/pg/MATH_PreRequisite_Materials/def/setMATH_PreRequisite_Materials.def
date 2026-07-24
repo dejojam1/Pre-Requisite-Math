@@ -6,6 +6,42 @@ screenHeaderFile  = MATH_PreRequisite_Materials/header/MATH_PreRequisite_Materia
 description       = MATH Pre-Requisite Materials
 problemListV2
 problem_start
+source_file = MATH_PreRequisite_Materials/1_1_2-Converting_to_a_Mixed_Fraction.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_4-Converting_to_an_Improper_Fraction.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_6-Reducing_Fractions.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_7.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_8.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_9.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_10.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_11.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_12.pg
+problem_id = 12
+problem_end
+problem_start
 source_file = MATH_PreRequisite_Materials/1_2_2-Adding_Fractions_with_a_Common_Denominator.pg
 problem_id = 2
 problem_end
@@ -24,4 +60,36 @@ problem_end
 problem_start
 source_file = MATH_PreRequisite_Materials/1_2_8.pg
 problem_id = 8
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_3_2-Multiplying_Fractions.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_3_3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_3_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_3_5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_4_2-Dividing_Fractions.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_4_3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_4_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_4_5.pg
+problem_id = 5
 problem_end

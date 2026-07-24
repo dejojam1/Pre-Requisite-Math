@@ -1,0 +1,64 @@
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.9)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextFraction.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+# Set the math environment to expect fraction format answers
+Context("Fraction-NoDecimals");
+
+# Define the exact answer
+$ans = Fraction(37,13);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Write [`2\frac{11}{13}`] as an improper fraction.
+
+[`2\frac{11}{13} = `] [_]{$ans}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

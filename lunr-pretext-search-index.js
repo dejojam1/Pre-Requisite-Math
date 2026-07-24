@@ -7,7 +7,115 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Fractions and Percentages",
-  "body": " Fractions and Percentages  Coming soon!  "
+  "body": " Fractions and Percentages   Converting Fractions  Fractions greater than one come in two forms:    Improper Fractions have a greater numerator than denominator, for example .  Mixed Fractions identify the greatest integer that is less than the fraction, and the remainder, for example .    Improper fractions are commonly preferred for calculations, but to interpret a fraction, writing it in mixed form is useful. We need to be able to convert between the forms.   Converting to a Mixed Fraction   Write as a mixed fraction.    We first ask 'How many times does 7 go into 37?' Now and which is too big, so the answer is '5 times'. This is the integer in our mixed fraction.  The remainder is , and so      Converting to a Mixed Fraction    Write as a mixed fraction.                     Converting to an Improper Fraction   Write as an improper fraction.    Here we have 3 as our integer. Since we are working with elevenths, . Then . We have an additional , and so      Converting to an Improper Fraction    Write as an improper fraction.                 Reducing Fractions  Where possible we want to simplify fractions. Fractions where the numerator and denominator have no common factors (other than 1 and -1) are said to be in reduced or lowest form . For example, is in reduced form, since 5 and 6 have no common factors. On the other hand, is not in reduced form, since 4 and 6 are both divisible by 2 (they have a common factor of 2).   Reducing Fractions   Write in reduced form.    Both 30 and 35 are divisible by 5. In particular and . We can cancel out the common factor of 5 to simplify the fraction.      Reducing Fractions    Write in reduced form.               If you find it difficult to identify common factors, see     Exercises     Write as a mixed fraction.                       Write as a mixed fraction.                       Write as an improper fraction.                  Write as an improper fraction.                  Write in reduced form.                  Write in reduced form.               More to be added   "
+},
+{
+  "id": "subsec-interpret-5",
+  "level": "2",
+  "url": "sec-percentages.html#subsec-interpret-5",
+  "type": "Example",
+  "number": "1.1.1",
+  "title": "Converting to a Mixed Fraction.",
+  "body": " Converting to a Mixed Fraction   Write as a mixed fraction.    We first ask 'How many times does 7 go into 37?' Now and which is too big, so the answer is '5 times'. This is the integer in our mixed fraction.  The remainder is , and so    "
+},
+{
+  "id": "ww-fraction-convert",
+  "level": "2",
+  "url": "sec-percentages.html#ww-fraction-convert",
+  "type": "Checkpoint",
+  "number": "1.1.2",
+  "title": "Converting to a Mixed Fraction.",
+  "body": " Converting to a Mixed Fraction    Write as a mixed fraction.                   "
+},
+{
+  "id": "subsec-interpret-7",
+  "level": "2",
+  "url": "sec-percentages.html#subsec-interpret-7",
+  "type": "Example",
+  "number": "1.1.3",
+  "title": "Converting to an Improper Fraction.",
+  "body": " Converting to an Improper Fraction   Write as an improper fraction.    Here we have 3 as our integer. Since we are working with elevenths, . Then . We have an additional , and so    "
+},
+{
+  "id": "ww-improper-convert",
+  "level": "2",
+  "url": "sec-percentages.html#ww-improper-convert",
+  "type": "Checkpoint",
+  "number": "1.1.4",
+  "title": "Converting to an Improper Fraction.",
+  "body": " Converting to an Improper Fraction    Write as an improper fraction.              "
+},
+{
+  "id": "subsec-reduce-3",
+  "level": "2",
+  "url": "sec-percentages.html#subsec-reduce-3",
+  "type": "Example",
+  "number": "1.1.5",
+  "title": "Reducing Fractions.",
+  "body": " Reducing Fractions   Write in reduced form.    Both 30 and 35 are divisible by 5. In particular and . We can cancel out the common factor of 5 to simplify the fraction.    "
+},
+{
+  "id": "ww-fraction-reduce",
+  "level": "2",
+  "url": "sec-percentages.html#ww-fraction-reduce",
+  "type": "Checkpoint",
+  "number": "1.1.6",
+  "title": "Reducing Fractions.",
+  "body": " Reducing Fractions    Write in reduced form.              "
+},
+{
+  "id": "ww-fraction-convert2",
+  "level": "2",
+  "url": "sec-percentages.html#ww-fraction-convert2",
+  "type": "Checkpoint",
+  "number": "1.1.7",
+  "title": "",
+  "body": "   Write as a mixed fraction.                   "
+},
+{
+  "id": "ww-fraction-convert3",
+  "level": "2",
+  "url": "sec-percentages.html#ww-fraction-convert3",
+  "type": "Checkpoint",
+  "number": "1.1.8",
+  "title": "",
+  "body": "   Write as a mixed fraction.                   "
+},
+{
+  "id": "ww-improper-convert2",
+  "level": "2",
+  "url": "sec-percentages.html#ww-improper-convert2",
+  "type": "Checkpoint",
+  "number": "1.1.9",
+  "title": "",
+  "body": "   Write as an improper fraction.              "
+},
+{
+  "id": "ww-improper-convert3",
+  "level": "2",
+  "url": "sec-percentages.html#ww-improper-convert3",
+  "type": "Checkpoint",
+  "number": "1.1.10",
+  "title": "",
+  "body": "   Write as an improper fraction.              "
+},
+{
+  "id": "ww-fraction-reduce2",
+  "level": "2",
+  "url": "sec-percentages.html#ww-fraction-reduce2",
+  "type": "Checkpoint",
+  "number": "1.1.11",
+  "title": "",
+  "body": "   Write in reduced form.              "
+},
+{
+  "id": "ww-fraction-reduce3",
+  "level": "2",
+  "url": "sec-percentages.html#ww-fraction-reduce3",
+  "type": "Checkpoint",
+  "number": "1.1.12",
+  "title": "",
+  "body": "   Write in reduced form.              "
 },
 {
   "id": "sec-adding",
@@ -97,7 +205,52 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Multiplying Fractions",
-  "body": " Multiplying Fractions  Coming soon!  "
+  "body": " Multiplying Fractions  When multiplying fractions, the numerators are multiplied to give the result's numerator, and the denominators are multiplied to give the result's denominator;   Multiplying Fractions   Calculate .    Multiplying the numerators and denominators gives This is in reduced form.     Multiplying Fractions    Evaluate the following expression. Provide your answer as a reduced fraction.                Exercises     Evaluate the following expression. Provide your answer as a reduced fraction.                  Evaluate the following expression. Provide your answer as a reduced fraction.                  Evaluate the following expression. Provide your answer as a reduced fraction.               More to be added   "
+},
+{
+  "id": "sec-multiply-3",
+  "level": "2",
+  "url": "sec-multiply.html#sec-multiply-3",
+  "type": "Example",
+  "number": "1.3.1",
+  "title": "Multiplying Fractions.",
+  "body": " Multiplying Fractions   Calculate .    Multiplying the numerators and denominators gives This is in reduced form.   "
+},
+{
+  "id": "ww-fraction-multiplication",
+  "level": "2",
+  "url": "sec-multiply.html#ww-fraction-multiplication",
+  "type": "Checkpoint",
+  "number": "1.3.2",
+  "title": "Multiplying Fractions.",
+  "body": " Multiplying Fractions    Evaluate the following expression. Provide your answer as a reduced fraction.              "
+},
+{
+  "id": "ww-fraction-multiplication2",
+  "level": "2",
+  "url": "sec-multiply.html#ww-fraction-multiplication2",
+  "type": "Checkpoint",
+  "number": "1.3.3",
+  "title": "",
+  "body": "   Evaluate the following expression. Provide your answer as a reduced fraction.              "
+},
+{
+  "id": "ww-fraction-multiplication3",
+  "level": "2",
+  "url": "sec-multiply.html#ww-fraction-multiplication3",
+  "type": "Checkpoint",
+  "number": "1.3.4",
+  "title": "",
+  "body": "   Evaluate the following expression. Provide your answer as a reduced fraction.              "
+},
+{
+  "id": "ww-fraction-multiplication4",
+  "level": "2",
+  "url": "sec-multiply.html#ww-fraction-multiplication4",
+  "type": "Checkpoint",
+  "number": "1.3.5",
+  "title": "",
+  "body": "   Evaluate the following expression. Provide your answer as a reduced fraction.              "
 },
 {
   "id": "sec-divide",
@@ -106,7 +259,52 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Dividing Fractions",
-  "body": " Dividing Fractions  Coming soon!  "
+  "body": " Dividing Fractions  When dividing fractions, we first turn the problem into one of multiplication by taking the reciprocal of the second fraction; Since the previous section looked at multiplication of fractions, this is now a problem we know how to solve.   Dividing Fractions   Calculate .    We first convert the problem to one of multiplication; This is in reduced form.     Dividing Fractions    Evaluate the following expression. Provide your answer as a reduced fraction.                Exercises     Evaluate the following expression. Provide your answer as a reduced fraction.                  Evaluate the following expression. Provide your answer as a reduced fraction.                  Evaluate the following expression. Provide your answer as a reduced fraction.               More to be added   "
+},
+{
+  "id": "sec-divide-3",
+  "level": "2",
+  "url": "sec-divide.html#sec-divide-3",
+  "type": "Example",
+  "number": "1.4.1",
+  "title": "Dividing Fractions.",
+  "body": " Dividing Fractions   Calculate .    We first convert the problem to one of multiplication; This is in reduced form.   "
+},
+{
+  "id": "ww-fraction-division",
+  "level": "2",
+  "url": "sec-divide.html#ww-fraction-division",
+  "type": "Checkpoint",
+  "number": "1.4.2",
+  "title": "Dividing Fractions.",
+  "body": " Dividing Fractions    Evaluate the following expression. Provide your answer as a reduced fraction.              "
+},
+{
+  "id": "ww-fraction-division2",
+  "level": "2",
+  "url": "sec-divide.html#ww-fraction-division2",
+  "type": "Checkpoint",
+  "number": "1.4.3",
+  "title": "",
+  "body": "   Evaluate the following expression. Provide your answer as a reduced fraction.              "
+},
+{
+  "id": "ww-fraction-division3",
+  "level": "2",
+  "url": "sec-divide.html#ww-fraction-division3",
+  "type": "Checkpoint",
+  "number": "1.4.4",
+  "title": "",
+  "body": "   Evaluate the following expression. Provide your answer as a reduced fraction.              "
+},
+{
+  "id": "ww-fraction-division4",
+  "level": "2",
+  "url": "sec-divide.html#ww-fraction-division4",
+  "type": "Checkpoint",
+  "number": "1.4.5",
+  "title": "",
+  "body": "   Evaluate the following expression. Provide your answer as a reduced fraction.              "
 },
 {
   "id": "sec-irrational",

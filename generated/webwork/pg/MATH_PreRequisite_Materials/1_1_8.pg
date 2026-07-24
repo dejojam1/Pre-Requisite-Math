@@ -44,16 +44,17 @@ TEXT(beginproblem());
 Context("Fraction-NoDecimals");
 
 # Define the exact answer
-$ans = Fraction(10,18);
+$int = 11;
+$frac = Fraction(1,3);
 
 ############################################################
 # Body
 ############################################################
 
 BEGIN_PGML
-Evaluate the following expression. Provide your answer as a reduced fraction.
+Write [`\frac{34}{3}`] as a mixed fraction.
 
-[`\frac{4}{9} - \frac{1}{6} = `] [_]{$ans}{10}
+[`\frac{34}{3} = `] [_]{$int}{10}[_]{$frac}{10}
 
 END_PGML
 
