@@ -45,8 +45,8 @@ Context("Fraction-NoDecimals");
 
 # Define the exact answer
 $ans1 = 3;
-$ans1 = 5;
-$ans1 = 11;
+$ans2 = 5;
+$ans3 = 11;
 
 ############################################################
 # Body

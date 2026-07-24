@@ -2,21 +2,21 @@
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ww-primes" assembly-id="ww-primes">
   <static seed="24">
     <statement><p>Determine the prime factors of 495. (Provide the factors in increasing order.)</p>
-<p><fillin characters="10" name="AnSwEr0001"/>,<fillin characters="1" name="AnSwEr0002"/>,<fillin characters="1" name="AnSwEr0003"/></p>
+<p><fillin characters="10" name="AnSwEr0001"/>,<fillin characters="10" name="AnSwEr0002"/>,<fillin characters="10" name="AnSwEr0003"/></p>
 </statement>
     <answer>
       <p>
+        <m>3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
         <m>11</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>10</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>10</m>
       </p>
     </answer>
   </static>
@@ -69,8 +69,8 @@ Context("Fraction-NoDecimals");
 
 # Define the exact answer
 $ans1 = 3;
-$ans1 = 5;
-$ans1 = 11;
+$ans2 = 5;
+$ans3 = 11;
 
 ############################################################
 # Body
