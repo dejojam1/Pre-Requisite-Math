@@ -3,7 +3,7 @@
 <section xml:id="sec-exponential" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Exponential Functions</title>
 
-<p>Exponential functions have the form <m>a^x</m>, where a is called the base. In this course we'll be dealing with situations where <m>x</m> is an integer (whole number). 
+<p>Exponential functions have the form <m>a^x</m>, where a is called the base. In this course we'll be dealing with situations where <m>x</m> is an integer. 
 Much like <m>3^2=3\times 3</m> and <m>4^3=4\times 4\times 4</m>, if we have <m>2^x</m> we are multiplying
 <m>x</m> copies of 2.</p>
 

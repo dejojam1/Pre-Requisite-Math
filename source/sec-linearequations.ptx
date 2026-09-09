@@ -3,7 +3,7 @@
 <section xml:id="sec-linearequations" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Solving Linear Equations</title>
 
-<p>A linear function equation is one that can be written in the form <m>ax=b</m>. They may not always be presented
+<p>A linear equation is an equation that can be written in the form <m>ax=b</m>. They may not always be presented
 in this form though. </p>
 
 <p>To solve a linear equation we want to isolate the variable <m>x</m>.Any operation performed on one side

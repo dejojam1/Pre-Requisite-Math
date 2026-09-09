@@ -73,14 +73,16 @@
       <md>mp=15,</md>
       <md>mq+np=-5,</md>
       <md>nq=-10.</md>
-      <p> If m and p are integers (whole numbers), then they are divisors of 15. We could have 1 and 15 or 3 and 5. Similarly,
+      <p> If m and p are integers, then they are divisors of 15. We could have 1 and 15 or 3 and 5. Similarly,
         if n and q are integers, then they are divisors of -10. We could have -1 and 10, 1 and -10, -2 and 5, or 2 and -5.
       </p>
       <p>We now consider what will result in <m>mq+np=-5</m>. If we have 15 multiplied by 2, -2, 5, -5, 10, or -10, this will be too large. We can test
       the possibilities where 15 is multiplied by 1 or -1:</p>
       <md>(15x+10)(x-1)=15x^2-5x-10,</md>
       <md>(15x-10)(x+1)=15x^2+5x-10.</md>
-      <p>Neither of these is correct, so m and p must be 3 and 5 in some order. The order does not matter, so we will assume that <m>m=3</m> and <m>p=5</m>.
+      <p>The first of these works.</p>
+      
+      <p>Are there other answers? If so, m and p must be 3 and 5 in some order. The order does not matter, so we will assume that <m>m=3</m> and <m>p=5</m>.
       Now we require</p>
       <md>3q+5n=-5.</md>
       <p>Only one of our options for n and q works, <m>q=-5</m> and <m>n=2</m>. This tells us that</p>
@@ -123,7 +125,7 @@
             # Define the exact answer
             $a = 15;
             $b = 23;
-            $c = 7;
+            $c = 6;
         </pg-code>
         <statement>
             <p>
@@ -197,14 +199,14 @@
             Context("Fraction-NoDecimals");
             
             # Define the exact answer
-            $a = 1;
+            $a = 2;
             $b = 2;
-            $c = 1;
+            $c = 2;
             $d = 2;
         </pg-code>
         <statement>
             <p>
-                Factor <m>4x^2+4x+4=(</m><var name="$a" width="10"/><m>x+</m><var name="$b" width="10"/><m>)(</m><var name="$c" width="10"/><m>x+</m><var name="$a" width="10"/><m>)</m>.
+                Factor <m>4x^2+8x+4=(</m><var name="$a" width="10"/><m>x+</m><var name="$b" width="10"/><m>)(</m><var name="$c" width="10"/><m>x+</m><var name="$a" width="10"/><m>)</m>.
             </p>   
         </statement>
     </webwork>
@@ -217,9 +219,9 @@
             Context("Fraction-NoDecimals");
             
             # Define the exact answer
-            $a = 5;
+            $a = 4;
             $b = 1;
-            $c = 4;
+            $c = 5;
         </pg-code>
         <statement>
             <p>
