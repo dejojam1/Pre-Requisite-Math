@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ww-squareroot4" assembly-id="ww-squareroot4">
+  <static seed="30">
+    <statement><p>On a number line, <m>-\sqrt{2}</m> would be placed between which two consecutive integers (whole numbers)? (Provide two consecutive integers (whole numbers).)</p>
+<p><fillin characters="10" name="AnSwEr0001"/><m>\lt -\sqrt{2} \lt</m><fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-1</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="MATH_PreRequisite_Materials/2_1_5.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.1.5)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextFraction.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+# Set the math environment to expect fraction format answers
+Context("Fraction-NoDecimals");
+
+# Define the exact answer
+$less = -2;
+$great = -1;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+On a number line, [`-\sqrt{2}`] would be placed between which two consecutive integers (whole numbers)? (Provide two consecutive integers (whole numbers).)
+
+[_]{$less}{10}[`\newcommand{\lt}{<}\lt -\sqrt{2} \lt `][_]{$great}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

@@ -44,16 +44,16 @@ TEXT(beginproblem());
 Context("Fraction-NoDecimals");
 
 # Define the exact answer
-$ans = Fraction(1,6);
+$ans = Fraction(31,5);
 
 ############################################################
 # Body
 ############################################################
 
 BEGIN_PGML
-Write [`\frac{9}{54}`] in reduced form.
+Write [`6\frac{1}{5}`] as an improper fraction.
 
-[`\frac{9}{54} = `] [_]{$ans}{10}
+[`6\frac{1}{5} = `] [_]{$ans}{10}
 
 END_PGML
 

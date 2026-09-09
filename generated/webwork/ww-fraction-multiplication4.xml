@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ww-fraction-multiplication4" assembly-id="ww-fraction-multiplication4">
-  <static seed="18">
+  <static seed="22">
     <statement><p>Evaluate the following expression. Provide your answer as a reduced fraction.</p>
 <p><m>\frac{49}{4} \times \frac{2}{7} =</m> <fillin characters="10" name="AnSwEr0001"/></p>
 </statement>

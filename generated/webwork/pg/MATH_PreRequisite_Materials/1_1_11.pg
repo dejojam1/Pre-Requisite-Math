@@ -44,16 +44,16 @@ TEXT(beginproblem());
 Context("Fraction-NoDecimals");
 
 # Define the exact answer
-$ans = 4;
+$ans = Fraction(37,13);
 
 ############################################################
 # Body
 ############################################################
 
 BEGIN_PGML
-Write [`\frac{64}{16}`] in reduced form.
+Write [`2\frac{11}{13}`] as an improper fraction.
 
-[`\frac{64}{16} = `] [_]{$ans}{10}
+[`2\frac{11}{13} = `] [_]{$ans}{10}
 
 END_PGML
 

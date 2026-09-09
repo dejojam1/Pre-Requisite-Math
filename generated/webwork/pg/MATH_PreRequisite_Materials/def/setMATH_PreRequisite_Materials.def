@@ -18,11 +18,7 @@ source_file = MATH_PreRequisite_Materials/1_1_6-Reducing_Fractions.pg
 problem_id = 6
 problem_end
 problem_start
-source_file = MATH_PreRequisite_Materials/1_1_7.pg
-problem_id = 7
-problem_end
-problem_start
-source_file = MATH_PreRequisite_Materials/1_1_8.pg
+source_file = MATH_PreRequisite_Materials/1_1_8-Calculating_Percentages.pg
 problem_id = 8
 problem_end
 problem_start
@@ -40,6 +36,26 @@ problem_end
 problem_start
 source_file = MATH_PreRequisite_Materials/1_1_12.pg
 problem_id = 12
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_13.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_14.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_15.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_16.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/1_1_17.pg
+problem_id = 17
 problem_end
 problem_start
 source_file = MATH_PreRequisite_Materials/1_2_2-Adding_Fractions_with_a_Common_Denominator.pg
@@ -98,6 +114,110 @@ source_file = MATH_PreRequisite_Materials/2_1_2-Square_Root_of_7.pg
 problem_id = 2
 problem_end
 problem_start
+source_file = MATH_PreRequisite_Materials/2_1_3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/2_1_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/2_1_5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/2_2_3-Greatest_Common_Divisor.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/2_2_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/2_2_5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/2_2_6.pg
+problem_id = 6
+problem_end
+problem_start
 source_file = MATH_PreRequisite_Materials/2_3_2-Prime_Factors.pg
 problem_id = 2
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/2_3_3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/2_3_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/2_3_5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/3_1_3-Solving_Linear_Equations.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/3_1_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/3_1_5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/3_1_6.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/3_2_2-Expanding_Quadratics.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/3_2_4-Factoring_Quadratics.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/3_2_5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/3_2_6.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/3_2_7.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/3_2_8.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/3_2_9.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/3_2_10.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/3_3_2-Solving_Exponential_Equations.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/3_3_3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/3_3_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = MATH_PreRequisite_Materials/3_3_5.pg
+problem_id = 5
 problem_end

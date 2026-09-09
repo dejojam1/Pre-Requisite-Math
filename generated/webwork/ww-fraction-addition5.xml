@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ww-fraction-addition5" assembly-id="ww-fraction-addition5">
-  <static seed="14">
+  <static seed="18">
     <statement><p>Evaluate the following expression. Provide your answer as a reduced fraction.</p>
 <p><m>\frac{4}{9} - \frac{1}{6} =</m> <fillin characters="10" name="AnSwEr0001"/></p>
 </statement>

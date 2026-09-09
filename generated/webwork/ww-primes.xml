@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ww-primes" assembly-id="ww-primes">
-  <static seed="24">
+  <static seed="35">
     <statement><p>Determine the prime factors of 495. (Provide the factors in increasing order.)</p>
 <p><fillin characters="10" name="AnSwEr0001"/>,<fillin characters="10" name="AnSwEr0002"/>,<fillin characters="10" name="AnSwEr0003"/></p>
 </statement>

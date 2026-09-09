@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ww-fraction-reduce2" assembly-id="ww-fraction-reduce2">
-  <static seed="8">
+  <static seed="9">
     <statement><p>Write <m>\frac{64}{16}</m> in reduced form.</p>
 <p><m>\frac{64}{16} =</m> <fillin characters="10" name="AnSwEr0001"/></p>
 </statement>
@@ -10,7 +10,7 @@
       </p>
     </answer>
   </static>
-  <rendering-data problemSource="MATH_PreRequisite_Materials/1_1_11.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <rendering-data problemSource="MATH_PreRequisite_Materials/1_1_13.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
   <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
@@ -27,7 +27,7 @@
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(1.1.11)
+## Problem1(1.1.13)
 ## Author()
 ## Institution()
 ## Language(en-US)

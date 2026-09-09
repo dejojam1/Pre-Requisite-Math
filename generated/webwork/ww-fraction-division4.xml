@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ww-fraction-division4" assembly-id="ww-fraction-division4">
-  <static seed="22">
+  <static seed="26">
     <statement><p>Evaluate the following expression. Provide your answer as a reduced fraction.</p>
 <p><m>\frac{9}{5} \div \frac{36}{25} =</m> <fillin characters="10" name="AnSwEr0001"/></p>
 </statement>

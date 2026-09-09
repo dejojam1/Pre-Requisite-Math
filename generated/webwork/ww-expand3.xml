@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ww-expand3" assembly-id="ww-expand3">
+  <static seed="46">
+    <statement><p>Expand <m>(4x-2)(4x-3)=</m><fillin characters="10" name="AnSwEr0001"/><m>x^2+</m><fillin characters="10" name="AnSwEr0002"/><m>x+</m><fillin characters="10" name="AnSwEr0003"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>16</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-20</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>6</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="MATH_PreRequisite_Materials/3_2_6.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.2.6)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextFraction.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+# Set the math environment to expect fraction format answers
+Context("Fraction-NoDecimals");
+
+# Define the exact answer
+$a = 16;
+$b = -20;
+$c = 6;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Expand [`(4x-2)(4x-3)=`][_]{$a}{10}[`x^2+`][_]{$b}{10}[`x+`][_]{$c}{10}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>
