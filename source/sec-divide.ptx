@@ -3,6 +3,117 @@
 <section xml:id="sec-divide" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Dividing Fractions</title>
 
-<p>Coming soon!</p>
+<p> When dividing fractions, we first turn the problem into one of multiplication by taking the reciprocal of the second fraction;
+  <md>\frac{a}{c}\div\frac{b}{d}=\frac{a}{c}\times\frac{d}{b}.</md>
+Since the previous section looked at multiplication of fractions, this is now a problem we know how to solve. </p>
+
+
+  <example>
+    <title>Dividing Fractions</title>
+    <statement>
+      <p>
+        Calculate <m>\frac{5}{7}\div\frac{4}{9}</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        We first convert the problem to one of multiplication; 
+         <md>\frac{5}{7}\div\frac{4}{9}=\frac{5}{7}\times\frac{9}{4}=\frac{5\times 9}{7\times 4}=\frac{45}{36}.</md>
+         This is in reduced form.
+      </p>
+    
+    </solution>
+  </example>
+
+  <exercise label="ww-fraction-division">
+    <title>Dividing Fractions</title>
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(40,27);
+        </pg-code>
+        <statement>
+            <p>
+                Evaluate the following expression. 
+                Provide your answer as a reduced fraction.
+            </p>
+            <p>
+                <m>\frac{8}{9} \div \frac{3}{5} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<subsection>
+  <title>Exercises</title>
+
+  <exercise label="ww-fraction-division2">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(15,7);
+        </pg-code>
+        <statement>
+            <p>
+                Evaluate the following expression. 
+                Provide your answer as a reduced fraction.
+            </p>
+            <p>
+                <m>\frac{6}{7} \div\frac{2}{5} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-fraction-division3">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(32,27);
+        </pg-code>
+        <statement>
+            <p>
+                Evaluate the following expression. 
+                Provide your answer as a reduced fraction.
+            </p>
+            <p>
+                <m>\frac{4}{3} \div \frac{9}{8} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-fraction-division4">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(5,4);
+        </pg-code>
+        <statement>
+            <p>
+                Evaluate the following expression. 
+                Provide your answer as a reduced fraction.
+            </p>
+            <p>
+                <m>\frac{9}{5} \div \frac{36}{25} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+
+</subsection>
 
 </section>

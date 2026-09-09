@@ -3,6 +3,123 @@
 <section xml:id="sec-gcd" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Greatest Common Divisor</title>
 
-<p>Coming soon!</p>
+<p>If a number <m>y</m> is divisible by a number <m>x</m>, then we call <m>x</m> a divisor of <m>y</m>. 
+</p>
 
+<p>If <m>x</m> is a divisor of <m>y</m> and <m>z</m>, then we say it is a common divisor of <m>y</m> and <m>z</m>. 
+</p>
+
+<example>
+    <title>Common Divisors of 30 and 45</title>
+    <statement>
+      <p>
+        What are the positive common divisors of 30 and 45?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        We first make a list of the positive divisors of 30:
+      </p>
+      <md>1, 2, 3, 5, 6, 10, 15, 30.</md>
+
+      <p>
+        Then we make a list of the positive divisors of 45:
+      </p>
+      <md>1, 3, 5, 9, 15, 45.</md>
+      
+      <p> The common divisors of 30 and 45 are the numbers that appear in both lists; 1, 3, 5, and 15.</p>
+    </solution>
+  </example>
+
+  <p>The greatest common divisor of numbers <m>y</m> and <m>z</m> is the largest among their common divisors. This is 
+  often represented as <m>\gcd(y,z)</m>. </p>
+
+  <example>
+    <title>Greatest Common Divisor of 30 and 45</title>
+    <statement>
+      <p>
+        Calculate <m>\gcd(30,45)</m>.
+      </p>
+    </statement>
+    <solution>
+      <p> We previously determined that the common divisors are: 1, 3, 5, and 15. The greatest among these is 15,
+        so <m>\gcd(30,45)=15</m>.
+      </p>
+    </solution>
+  </example>
+
+  <exercise label="ww-gcd">
+    <title>Greatest Common Divisor</title>
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $gcd = 6;
+        </pg-code>
+        <statement>
+            <p>
+                <m>\gcd(42,24)=</m><var name="$gcd" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<subsection>
+  <title>Exercises</title>
+
+
+<exercise label="ww-gcd2">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $gcd = 18;
+        </pg-code>
+        <statement>
+            <p>
+                <m>\gcd(36,90)=</m><var name="$gcd" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-gcd3">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $gcd = 5;
+        </pg-code>
+        <statement>
+            <p>
+                <m>\gcd(45,70)=</m><var name="$gcd" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-gcd4">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $gcd = 21;
+        </pg-code>
+        <statement>
+            <p>
+                <m>\gcd(42,147)=</m><var name="$gcd" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+</subsection>
 </section>

@@ -3,6 +3,125 @@
 <section xml:id="sec-exponential" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Exponential Functions</title>
 
-<p>Coming soon!</p>
+<p>Exponential functions have the form <m>a^x</m>, where a is called the base. In this course we'll be dealing with situations where <m>x</m> is an integer (whole number). 
+Much like <m>3^2=3\times 3</m> and <m>4^3=4\times 4\times 4</m>, if we have <m>2^x</m> we are multiplying
+<m>x</m> copies of 2.</p>
 
+<p> There are a few exponent rules that you will need to be familiar with. The first ones are for multiplying and dividing exponential terms with the same base:</p>
+<md>a^xa^y=a^{x+y},</md>
+<md>\frac{a^x}{a^y}=a^{x-y}.</md>
+
+
+
+<p>We also need to know what to do when there are multiple powers. In particular,</p>
+<md>(a^x)^y=a^{xy}=(a^y)^x.</md>
+
+<p>Finally, if two exponential functions with the same base are equal, then the powers must be equal, so if <m>a^x=a^y</m>, then <m>x=y</m>.</p>
+
+<example>
+    <title>Solving Exponential Equations</title>
+    <statement>
+      <p>
+        Solve the equation <m>2^{2x-1}4^x=8^x</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>The rules above required the bases to be the same. However, note that <m>4=2^2</m> and <m>8=2^3</m>. If we make those replacements, then we will obtain the same base in all three terms: </p>
+      <md>2^{2x-1}(2^2)^x=(2^3)^x.</md>
+      <p>Now we can use the rule regarding powers of powers to get</p>
+      <md>2^{2x-1}2^{2x}=2^{3x}.</md>
+      <p>Now the left-hand-side has a product of two exponential functions with the same base, so we may add the powers:</p>
+      <md>2^{(2x-1)+2x}=2^{3x}.</md>
+      <p>From here, we know that the powers must be equal, so</p>
+      <md>(2x-1)+2x=3x.</md>
+      <p>This is a linear equation, which we can solve:</p>
+      <md>4x-1=3x,</md>
+      <md>x=1.</md>
+
+    </solution>
+  </example>
+
+  <exercise label="ww-exp">
+    <title>Solving Exponential Equations</title>
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $x = 3;
+        </pg-code>
+        <statement>
+            <p>
+                Solve the equation <m>16^x=2^{5-x}4^{x+2}</m>.
+            </p>   
+            <p><m>x=</m><var name="$x" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<subsection>
+  <title>Exercises</title>
+
+
+<exercise label="ww-exp2">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $x = 4;
+        </pg-code>
+        <statement>
+            <p>
+                Solve the equation <m>9^x=3^{x+4}</m>.
+            </p>   
+            <p><m>x=</m><var name="$x" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-exp3">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $x = 2;
+        </pg-code>
+        <statement>
+            <p>
+                Solve the equation <m>5^{2-x}5^{2x}=25^x</m>.
+            </p>   
+            <p><m>x=</m><var name="$x" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-exp4">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $x = 5;
+        </pg-code>
+        <statement>
+            <p>
+                Solve the equation <m>4^{7-x}16^x=2^{5x-1}</m>.
+            </p>   
+            <p><m>x=</m><var name="$x" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+
+</subsection>
 </section>

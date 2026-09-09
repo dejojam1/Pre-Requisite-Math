@@ -1,8 +1,234 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-quadratic" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Quadratic Equations</title>
+  <title>Quadratic Functions</title>
 
-<p>Coming soon!</p>
+<p>A quadratic function has the standard form <m>ax^2+bx+c</m>. We will focus on expanding and factoring quadratics.</p>
+
+<subsection xml:id="subsec-expand">
+  <title>Expanding Quadratics</title>
+
+  <p>If we have a quadratic in a factored form, it will have the form <m>(ax+b)(cx+d)</m>. When expanding,
+  we wish to write it in the standard form. When each set of brackets has two terms, we must multiply the first (F) terms in each bracket,
+  the outer (O) terms, the inner (I) terms, and the last (L) terms. This is often remembered using the acronym FOIL. This gives </p>
+  <md>(ax)(cx)+(ax)(d)+(b)(cx)+(b)(d)=acx^2+(ad+bc)x+bd.</md>
+
+  <example>
+    <title>Expanding Quadratics</title>
+    <statement>
+      <p>
+        Expand <m>(3x-5)(2x+7)</m>.
+      </p>
+    </statement>
+    <solution>
+      <p> We follow the FOIL acronym, giving</p>
+      <md>(3x-5)(2x+7)=(3x)(2x)+(3x)(7)+(-5)(2x)+(-5)(7).</md>
+      <p> Note that here the term <m>3x-5</m> was treated as <m>3x+(-5)</m>.</p>
+      <p>We can then simplify further to give</p>
+      <md>6x^2+21x-10x-35=6x^2+11x-35.</md>
+    </solution>
+  </example>
+
+  <exercise label="ww-expand">
+    <title>Expanding Quadratics</title>
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $a = 18;
+            $b = -24;
+            $c = -10;
+        </pg-code>
+        <statement>
+            <p>
+                Expand <m>(6x+2)(3x-5)=</m><var name="$a" width="10"/><m>x^2+</m><var name="$b" width="10"/><m>x+</m><var name="$c" width="10"/>.
+            </p>   
+        </statement>
+    </webwork>
+</exercise>
+
+</subsection>
+
+<subsection xml:id="subsec-factor">
+  <title>Factoring Quadratics</title>
+
+  <p>We now wish to go the other way. Given the standard form <m>ax^2+bx+c</m>, we will factor the quadratic to the form <m>(mx+n)(px+q)</m>.</p>
+
+<p>Note that we know how to expand <m>(mx+n)(px+q)</m>:</p>
+<md>(mx+n)(px+q)=mpx^2+(mq+np)x+np.</md>
+<p>If this is the same as <m>ax^2+bx+c</m>, then we must have <m>mp=a</m>, <m>mq+np=b</m>, and <m>nq=c</m>. With a bit of trial and error, we can determine the values of m, n, p, and q.</p>
+
+
+<example>
+    <title>Factoring Quadratics</title>
+    <statement>
+      <p>
+        Factor <m>15x^2-5x-10</m>.
+      </p>
+    </statement>
+    <solution>
+      <p> The factored form will be <m>(mx+n)(px+q)</m> where</p>
+      <md>mp=15,</md>
+      <md>mq+np=-5,</md>
+      <md>nq=-10.</md>
+      <p> If m and p are integers (whole numbers), then they are divisors of 15. We could have 1 and 15 or 3 and 5. Similarly,
+        if n and q are integers, then they are divisors of -10. We could have -1 and 10, 1 and -10, -2 and 5, or 2 and -5.
+      </p>
+      <p>We now consider what will result in <m>mq+np=-5</m>. If we have 15 multiplied by 2, -2, 5, -5, 10, or -10, this will be too large. We can test
+      the possibilities where 15 is multiplied by 1 or -1:</p>
+      <md>(15x+10)(x-1)=15x^2-5x-10,</md>
+      <md>(15x-10)(x+1)=15x^2+5x-10.</md>
+      <p>Neither of these is correct, so m and p must be 3 and 5 in some order. The order does not matter, so we will assume that <m>m=3</m> and <m>p=5</m>.
+      Now we require</p>
+      <md>3q+5n=-5.</md>
+      <p>Only one of our options for n and q works, <m>q=-5</m> and <m>n=2</m>. This tells us that</p>
+      <md>15x^2-5x-10=(3x+2)(5x-5).</md>
+      <p>Note that you can always check your final answer by expanding!</p>
+    </solution>
+  </example>
+
+  <exercise label="ww-factor">
+    <title>Factoring Quadratics</title>
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $a = 4;
+            $b = -5;
+            $c = 2;
+        </pg-code>
+        <statement>
+            <p>
+                Factor <m>8x^2-6x-5=(</m><var name="$a" width="10"/><m>x+</m><var name="$b" width="10"/><m>)(</m><var name="$c" width="10"/><m>x+1)</m>.
+            </p>   
+        </statement>
+    </webwork>
+</exercise>
+</subsection>
+
+<subsection>
+  <title>Exercises</title>
+
+
+<exercise label="ww-expand2">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $a = 15;
+            $b = 23;
+            $c = 7;
+        </pg-code>
+        <statement>
+            <p>
+                Expand <m>(3x+1)(5x+6)=</m><var name="$a" width="10"/><m>x^2+</m><var name="$b" width="10"/><m>x+</m><var name="$c" width="10"/>.
+            </p>   
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-expand3">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $a = 16;
+            $b = -20;
+            $c = 6;
+        </pg-code>
+        <statement>
+            <p>
+                Expand <m>(4x-2)(4x-3)=</m><var name="$a" width="10"/><m>x^2+</m><var name="$b" width="10"/><m>x+</m><var name="$c" width="10"/>.
+            </p>   
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-expand4">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $a = 8;
+            $b = -61;
+            $c = -24;
+        </pg-code>
+        <statement>
+            <p>
+                Expand <m>(x-8)(8x+3)=</m><var name="$a" width="10"/><m>x^2+</m><var name="$b" width="10"/><m>x+</m><var name="$c" width="10"/>.
+            </p>   
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-factor2">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $b = 1;
+            $c = 1;
+            $d = -1;
+        </pg-code>
+        <statement>
+            <p>
+                Factor <m>3x^2-2x-1=(3x+</m><var name="$b" width="10"/><m>)(</m><var name="$c" width="10"/><m>x+</m><var name="$d" width="10"/><m>)</m>.
+            </p>   
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-factor3">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $a = 1;
+            $b = 2;
+            $c = 1;
+            $d = 2;
+        </pg-code>
+        <statement>
+            <p>
+                Factor <m>4x^2+4x+4=(</m><var name="$a" width="10"/><m>x+</m><var name="$b" width="10"/><m>)(</m><var name="$c" width="10"/><m>x+</m><var name="$a" width="10"/><m>)</m>.
+            </p>   
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-factor4">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $a = 5;
+            $b = 1;
+            $c = 4;
+        </pg-code>
+        <statement>
+            <p>
+                Factor <m>20x^2+x-1=(</m><var name="$a" width="10"/><m>x+</m><var name="$b" width="10"/><m>)(</m><var name="$c" width="10"/><m>x-1)</m>.
+            </p>   
+        </statement>
+    </webwork>
+</exercise>
+
+</subsection>
 
 </section>

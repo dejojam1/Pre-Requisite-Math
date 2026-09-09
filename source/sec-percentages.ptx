@@ -3,6 +3,383 @@
 <section xml:id="sec-percentages" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Fractions and Percentages</title>
 
-<p>Coming soon!</p>
+<subsection xml:id="subsec-interpret">
+  <title>Converting Fractions</title>
+  
+
+<p> Fractions greater than one come in two forms: </p>
+<p>
+<ul>
+<li>
+Improper Fractions have a greater numerator than denominator, for example <m>\frac{7}{6}</m>.
+</li>
+<li>
+Mixed Fractions identify the greatest integer that is less than the fraction, and the remainder, for example  <m>1\frac{1}{6}</m>.
+</li>
+</ul>
+</p>
+
+<p>Improper fractions are commonly preferred for calculations, but to interpret a fraction, writing it in mixed form is useful. 
+We need to be able to convert between the forms. </p>
+
+  <example>
+    <title>Converting to a Mixed Fraction</title>
+    <statement>
+      <p>
+        Write <m>\frac{37}{7}</m> as a mixed fraction.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        We first ask 'How many times does 7 go into 37?' Now <m>5\times 7=35</m> and <m>6\times 7=42</m> which is too big, 
+        so the answer is '5 times'. This is the integer in our mixed fraction. 
+      </p>
+      <p>
+        The remainder is <m>37-35=2</m>, and so 
+        <md>\frac{37}{7}=5\frac{2}{7}.</md>
+      </p>
+    
+    </solution>
+  </example>
+
+  <exercise label="ww-fraction-convert">
+    <title>Converting to a Mixed Fraction</title>
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $int = 4;
+            $frac = Fraction(7,9);
+        </pg-code>
+        <statement>
+            <p>
+                Write <m>\frac{43}{9}</m> as a mixed fraction.
+            </p>
+            <p>
+                <m>\frac{43}{9} = </m> <var name="$int" width="10"/><var name="$frac" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+
+
+  <example>
+    <title>Converting to an Improper Fraction</title>
+    <statement>
+      <p>
+        Write <m>3\frac{6}{11}</m> as an improper fraction.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Here we have 3 as our integer. Since we are working with elevenths, <m>1=\frac{11}{11}</m>. Then <m>3=3\left(\frac{11}{11}\right)=\frac{33}{11}</m>.
+        We have an additional <m>\frac{6}{11}</m>, and so
+        <md>3\frac{6}{11}=\frac{33+6}{11}=\frac{39}{11}.</md>
+      </p>
+    </solution>
+  </example>
+
+  <exercise label="ww-improper-convert">
+    <title>Converting to an Improper Fraction</title>
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(37,5);
+        </pg-code>
+        <statement>
+            <p>
+                Write <m>7\frac{2}{5}</m> as an improper fraction.
+            </p>
+            <p>
+                <m>7\frac{2}{5} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+</subsection>
+
+<subsection xml:id="subsec-reduce">
+  <title>Reducing Fractions</title>
+
+  <p>
+    Where possible we want to simplify fractions. Fractions where the numerator and denominator have no common factors (other than 1 and -1) are
+    said to be in reduced or lowest form . For example, <m>\frac{5}{6}</m> is in reduced form, since 5 and 6 have no common factors. On the other hand,
+    <m>\frac{4}{6}</m> is not in reduced form, since 4 and 6 are both divisible by 2 (they have a common factor of 2). 
+  </p>
+
+<example>
+    <title>Reducing Fractions</title>
+    <statement>
+      <p>
+        Write <m>\frac{30}{35}</m> in reduced form.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Both 30 and 35 are divisible by 5. In particular <m>30=6\times 5</m> and <m>35=7\times 5</m>. We can cancel out the common factor of 5 to simplify the fraction.
+        <md>\frac{30}{35}=\frac{6\times 5}{7\times 5}=\frac{6}{7}.</md>
+      </p>
+    </solution>
+  </example>
+
+
+  <exercise label="ww-fraction-reduce">
+    <title>Reducing Fractions</title>
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(20,21);
+        </pg-code>
+        <statement>
+            <p>
+                Write <m>\frac{60}{63}</m> in reduced form.
+            </p>
+            <p>
+                <m>\frac{60}{63} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<p>If you find it difficult to identify common factors, see <xref ref="sec-prime"/></p>
+
+</subsection>
+
+<subsection xml:id="subsec-percent">
+  <title>Calculating Percentages</title>
+
+  <p>
+    Here we introduce a trick for calculating percentages in certain cases. 
+  </p>
+
+<example>
+    <title>Calculating Percentages</title>
+    <statement>
+      <p>
+        Calculate 62% of 150. 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        This seems quite challenging at first, since 62 isn't a particularly nice percentage to work with. However, 150 is, and 62% of 150 is the same as 150% of 62. 
+        The latter is much easier to calculate, since 50% of 62 is 31. Then 150% of 62 is 62+31=93. Thus 62% of 150 is also 93. 
+      </p>
+      <p> In general, if a percentage calculation seems difficult, it's worth considering if swapping the numbers would make it easier. </p>
+    </solution>
+  </example>
+
+
+  <exercise label="ww-percent">
+    <title>Calculating Percentages</title>
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = 27;
+        </pg-code>
+        <statement>
+            <p>
+                36% of 75 is <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<p>If you find it difficult to identify common factors, see <xref ref="sec-prime"/></p>
+
+</subsection>
+
+
+<!--<subsection xml:id="subsec-percent">
+  <title>Percentages</title>
+</subsection>-->
+
+<subsection>
+  <title>Exercises</title>
+
+  <exercise label="ww-fraction-convert2">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $int = 9;
+            $frac = Fraction(2,7);
+        </pg-code>
+        <statement>
+            <p>
+                Write <m>\frac{65}{7}</m> as a mixed fraction.
+            </p>
+            <p>
+                <m>\frac{65}{7} = </m> <var name="$int" width="10"/><var name="$frac" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+  <exercise label="ww-fraction-convert3">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $int = 11;
+            $frac = Fraction(1,3);
+        </pg-code>
+        <statement>
+            <p>
+                Write <m>\frac{34}{3}</m> as a mixed fraction.
+            </p>
+            <p>
+                <m>\frac{34}{3} = </m> <var name="$int" width="10"/><var name="$frac" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+  <exercise label="ww-improper-convert2">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(37,13);
+        </pg-code>
+        <statement>
+            <p>
+                Write <m>2\frac{11}{13}</m> as an improper fraction.
+            </p>
+            <p>
+                <m>2\frac{11}{13} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+  <exercise label="ww-improper-convert3">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(31,5);
+        </pg-code>
+        <statement>
+            <p>
+                Write <m>6\frac{1}{5}</m> as an improper fraction.
+            </p>
+            <p>
+                <m>6\frac{1}{5} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+  <exercise label="ww-fraction-reduce2">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = 4;
+        </pg-code>
+        <statement>
+            <p>
+                Write <m>\frac{64}{16}</m> in reduced form.
+            </p>
+            <p>
+                <m>\frac{64}{16} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+  <exercise label="ww-fraction-reduce3">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(1,6);
+        </pg-code>
+        <statement>
+            <p>
+                Write <m>\frac{9}{54}</m> in reduced form.
+            </p>
+            <p>
+                <m>\frac{9}{54} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-percent2">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = 18;
+        </pg-code>
+        <statement>
+            <p>
+                72% of 25 is <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-percent3">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = 47;
+        </pg-code>
+        <statement>
+            <p>
+                94% of 50 is <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-percent4">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = 154;
+        </pg-code>
+        <statement>
+            <p>
+                88% of 175 is <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+</subsection>
 
 </section>

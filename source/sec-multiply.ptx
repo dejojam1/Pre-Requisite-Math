@@ -3,6 +3,115 @@
 <section xml:id="sec-multiply" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Multiplying Fractions</title>
 
-<p>Coming soon!</p>
+  <p> When multiplying fractions, the numerators are multiplied to give the result's numerator, and the denominators are multiplied to give the result's denominator; 
+  <md>\frac{a}{c}\times\frac{b}{d}=\frac{ab}{cd}.</md></p>
+
+  <example>
+    <title>Multiplying Fractions</title>
+    <statement>
+      <p>
+        Calculate <m>\frac{5}{7}\times\frac{4}{9}</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Multiplying the numerators and denominators gives 
+         <md>\frac{5}{7}\times\frac{4}{9}=\frac{5\times 4}{7\times 9}=\frac{20}{63}.</md>
+         This is in reduced form.
+      </p>
+    
+    </solution>
+  </example>
+
+  <exercise label="ww-fraction-multiplication">
+    <title>Multiplying Fractions</title>
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(8,15);
+        </pg-code>
+        <statement>
+            <p>
+                Evaluate the following expression. 
+                Provide your answer as a reduced fraction.
+            </p>
+            <p>
+                <m>\frac{8}{9} \times \frac{3}{5} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<subsection>
+  <title>Exercises</title>
+
+  <exercise label="ww-fraction-multiplication2">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(12,35);
+        </pg-code>
+        <statement>
+            <p>
+                Evaluate the following expression. 
+                Provide your answer as a reduced fraction.
+            </p>
+            <p>
+                <m>\frac{6}{7} \times \frac{2}{5} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-fraction-multiplication3">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(3,2);
+        </pg-code>
+        <statement>
+            <p>
+                Evaluate the following expression. 
+                Provide your answer as a reduced fraction.
+            </p>
+            <p>
+                <m>\frac{4}{3} \times \frac{9}{8} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-fraction-multiplication4">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans = Fraction(7,2);
+        </pg-code>
+        <statement>
+            <p>
+                Evaluate the following expression. 
+                Provide your answer as a reduced fraction.
+            </p>
+            <p>
+                <m>\frac{49}{4} \times \frac{2}{7} = </m> <var name="$ans" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+
+</subsection>
 
 </section>

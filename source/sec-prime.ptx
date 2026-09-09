@@ -3,6 +3,137 @@
 <section xml:id="sec-prime" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Prime Numbers</title>
 
-<p>Coming soon!</p>
+<p>A prime number is one with exactly two positive divisors, 1 and itself. For example, 2 is a prime number, as it is only 
+  divisible by 1 and 2. On the other hand, 4 is not a prime number because it is divisible by 2 in addition to 1 and 4. Note that 1 is not 
+  considered a prime number, because it only has one positive divisor, which is itself. 
+</p>
 
+<p>To find the prime divisors of a given number, we will find one divisor, factor it out, and then repeat, until we are left with only primes.</p>
+
+ <example>
+    <title>Prime Factors</title>
+    <statement>
+      <p>
+        Find all prime factors of 5460.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        We first need to find one divisor of 5460. Some easier divisors to identify are 2, 5, and 10. In this case, the number is even, so it is divisible by 2. 
+        It also ends in a zero, so it is divisible by 10 (and thus also 5). We could start with any of these, but the simplest calculation is to divide by 10: 
+        <md>5460=10\times 546=2\times 5\times 546.</md>
+        Now 546 is an even number, and so it is divisible by 2. We can factor out this 2 as well:
+        <md>5460=2\times 5\times 546=2\times 5\times 2\times 273=2^2\times 5\times 273.</md>
+        There are no more factors of 2, since 273 is an odd number. Since 273 doesn't end in a 5 or 0, there are also no more factors of 5. 
+      </p>
+
+      <p>Another easier factor to check for is 3. If a number is divisible by 3 then the sum of its digits is also divisible by 3. The sum of the digits of 
+        273 is <m>2+7+3=12</m>. This sum is divisible by 3 since <m>12=4\times 3</m>, which tells us that 273 is divisible by 3. Factoring out the 3 gives
+        <md>5460=2^2\times 5\times 3\times 91.</md>
+        Now the digits of 91 add to 10, which is not divisible by 3, so there are no more factors of 3. Other prime factors are more difficult to test for. However, we are limited 
+        in the size of the factors we might be looking for. We know that <m>91\lt 100=10^2</m>. If 91 is not prime, then it has another prime factor that is less than 10. We know 
+        that 2, 3, and 5 are not prime factors of 91. The only remaining possibility is 7, so we can test this using division, finding that <m>91=7\times 13</m>. These are both prime, 
+        and so we have a prime factorization of 
+        <md>5460=2^2\times 3\times 5\times 7\times 13.</md>
+        The prime factors are 2, 3, 5, 7, and 13.
+      </p>
+    
+    </solution>
+  </example>
+
+<exercise label="ww-primes">
+    <title>Prime Factors</title>
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans1 = 3;
+            $ans2 = 5;
+            $ans3 = 11;
+        </pg-code>
+        <statement>
+            <p>
+                Determine the prime factors of 495. (Provide the factors in increasing order.)
+            </p>
+            <p>
+                <var name="$ans1" width="10"/>,<var name="$ans2" width="10"/>,<var name="$ans3" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+
+<subsection>
+  <title>Exercises</title>
+
+
+<exercise label="ww-primes2">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans1 = 2;
+            $ans2 = 3;
+            $ans3 = 13;
+        </pg-code>
+        <statement>
+            <p>
+                Determine the prime factors of 156. (Provide the factors in increasing order.)
+            </p>
+            <p>
+                <var name="$ans1" width="10"/>,<var name="$ans2" width="10"/>,<var name="$ans3" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-primes3">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans1 = 2;
+            $ans2 = 5;
+            $ans3 = 7;
+        </pg-code>
+        <statement>
+            <p>
+                Determine the prime factors of 350. (Provide the factors in increasing order.)
+            </p>
+            <p>
+                <var name="$ans1" width="10"/>,<var name="$ans2" width="10"/>,<var name="$ans3" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-primes4">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $ans1 = 3;
+            $ans2 = 7;
+            $ans3 = 11;
+        </pg-code>
+        <statement>
+            <p>
+                Determine the prime factors of 693. (Provide the factors in increasing order.)
+            </p>
+            <p>
+                <var name="$ans1" width="10"/>,<var name="$ans2" width="10"/>,<var name="$ans3" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+</subsection>
 </section>

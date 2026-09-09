@@ -3,6 +3,148 @@
 <section xml:id="sec-irrational" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Irrational Numbers</title>
 
-<p>Coming soon!</p>
+<p>Irrational numbers are ones that cannot be written as fractions. We will not go into much detail until later in the course, but
+  there are two common types of irrational numbers that you should be aware of:
+</p>
+<p>
+<ul>
+<li>
+<m>\pi=3.14159265...</m>, and 
+</li>
+<li>
+square roots.
+</li>
+</ul>
+</p>
+
+<p>You are probably quite familiar with some square roots, such as <m>\sqrt{1}=1</m>, <m>\sqrt{4}=2</m>, and <m>\sqrt{9}=3</m>, as 1, 4, and 9 are perfect squares.
+Square roots of other numbers can be more challenging to work with. </p>
+
+<example>
+    <title>Square Root of 3</title>
+    <statement>
+      <p>
+        How could we determine where to place <m>\sqrt{3}</m> on a number line?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        If we had a calculator, we could calculate <m>\sqrt{3}=1.732...</m>. Without a calculator we cannot expect to be this precise, but we should be 
+        able to get an idea of how large this number is by comparing with other values.
+      </p>
+      <p>
+        We know that <m>\sqrt{1}=1</m> and <m>\sqrt{4}=2</m>. Now 
+        <md>1\lt 3\lt 4.</md>
+        The square root function always increases; a greater number has a greater square root, and a lower number has a lower square root. This means that
+        <md>\sqrt{1}\lt \sqrt{3}\lt \sqrt{4},</md>
+        or in other words
+        <md>1\lt \sqrt{3}\lt 2.</md>
+      </p>
+      <p>Note also that 
+      <md>1\lt \sqrt{2}\lt \sqrt{3},</md>
+      so we might not expect <m>\sqrt{3}</m> to be close to the left-hand side of the interval between 1 and 2. Therefore
+      we might guess that <m>\sqrt{3}</m> should go somewhere between 1.5 and 2. This isn't very precise, but it gives us a general idea of the
+      size of <m>\sqrt{3}</m> for comparison with other numbers. 
+      </p>
+      <p>
+        If you wanted to narrow down the placement, you could calculate <md>(1.5)^2=2.25.</md> This confirms that <m>\sqrt{3}</m> should
+        be to the right of 1.5 on the number line. We could then calculate <md>(1.75)^2=3.0625.</md> Then <m>\sqrt{3}</m> should
+        be slightly to the left of 1.75 on the number line. This process could be continued to the level of accuracy desired. 
+      </p>
+    </solution>
+  </example>
+
+    <exercise label="ww-squareroot">
+    <title>Square Root of 7</title>
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $less = 2;
+            $great = 3;
+        </pg-code>
+        <statement>
+            <p>
+                On a number line, <m>\sqrt{7}</m> would be placed between which two consecutive integers (whole numbers)? (Provide two consecutive integers (whole numbers).)
+            </p>
+            <p>
+                <var name="$less" width="10"/><m>\lt \sqrt{7} \lt </m><var name="$great" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+
+
+<subsection>
+  <title>Exercises</title>
+
+
+<exercise label="ww-squareroot2">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $less = 3;
+            $great = 4;
+        </pg-code>
+        <statement>
+            <p>
+                On a number line, <m>\sqrt{13}</m> would be placed between which two consecutive integers (whole numbers)? (Provide two consecutive integers (whole numbers).)
+            </p>
+            <p>
+                <var name="$less" width="10"/><m>\lt \sqrt{13} \lt </m><var name="$great" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-squareroot3">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $less = 2;
+            $great = 3;
+        </pg-code>
+        <statement>
+            <p>
+                On a number line, <m>\sqrt{5}</m> would be placed between which two consecutive integers (whole numbers)? (Provide two consecutive integers (whole numbers).)
+            </p>
+            <p>
+                <var name="$less" width="10"/><m>\lt \sqrt{5} \lt </m><var name="$great" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+<exercise label="ww-squareroot4">
+    <webwork>
+        <pg-code>
+            # Set the math environment to expect fraction format answers
+            Context("Fraction-NoDecimals");
+            
+            # Define the exact answer
+            $less = -2;
+            $great = -1;
+        </pg-code>
+        <statement>
+            <p>
+                On a number line, <m>-\sqrt{2}</m> would be placed between which two consecutive integers (whole numbers)? (Provide two consecutive integers (whole numbers).)
+            </p>
+            <p>
+                <var name="$less" width="10"/><m>\lt -\sqrt{2} \lt </m><var name="$great" width="10"/>
+            </p>
+        </statement>
+    </webwork>
+</exercise>
+
+</subsection>
 
 </section>
