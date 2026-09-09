@@ -5,7 +5,7 @@
 </statement>
     <answer>
       <p>
-        <m>5</m>
+        <m>4</m>
       </p>
     </answer>
     <answer>
@@ -15,7 +15,7 @@
     </answer>
     <answer>
       <p>
-        <m>4</m>
+        <m>5</m>
       </p>
     </answer>
   </static>
@@ -67,9 +67,9 @@ TEXT(beginproblem());
 Context("Fraction-NoDecimals");
 
 # Define the exact answer
-$a = 5;
+$a = 4;
 $b = 1;
-$c = 4;
+$c = 5;
 
 ############################################################
 # Body

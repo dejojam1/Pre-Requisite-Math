@@ -46,7 +46,7 @@ Context("Fraction-NoDecimals");
 # Define the exact answer
 $a = 15;
 $b = 23;
-$c = 7;
+$c = 6;
 
 ############################################################
 # Body

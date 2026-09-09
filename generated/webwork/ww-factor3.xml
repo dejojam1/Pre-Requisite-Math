@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ww-factor3" assembly-id="ww-factor3">
   <static seed="49">
-    <statement><p>Factor <m>4x^2+4x+4=(</m><fillin characters="10" name="AnSwEr0001"/><m>x+</m><fillin characters="10" name="AnSwEr0002"/><m>)(</m><fillin characters="10" name="AnSwEr0003"/><m>x+</m><fillin characters="10" name="AnSwEr0004"/><m>)\text{.}</m></p>
+    <statement><p>Factor <m>4x^2+8x+4=(</m><fillin characters="10" name="AnSwEr0001"/><m>x+</m><fillin characters="10" name="AnSwEr0002"/><m>)(</m><fillin characters="10" name="AnSwEr0003"/><m>x+</m><fillin characters="10" name="AnSwEr0004"/><m>)\text{.}</m></p>
 </statement>
     <answer>
       <p>
-        <m>1</m>
+        <m>2</m>
       </p>
     </answer>
     <answer>
@@ -15,12 +15,12 @@
     </answer>
     <answer>
       <p>
-        <m>1</m>
+        <m>2</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>1</m>
+        <m>2</m>
       </p>
     </answer>
   </static>
@@ -72,9 +72,9 @@ TEXT(beginproblem());
 Context("Fraction-NoDecimals");
 
 # Define the exact answer
-$a = 1;
+$a = 2;
 $b = 2;
-$c = 1;
+$c = 2;
 $d = 2;
 
 ############################################################
@@ -82,7 +82,7 @@ $d = 2;
 ############################################################
 
 BEGIN_PGML
-Factor [`4x^2+4x+4=(`][_]{$a}{10}[`x+`][_]{$b}{10}[`)(`][_]{$c}{10}[`x+`][_]{$a}{10}[`)\text{.}`]
+Factor [`4x^2+8x+4=(`][_]{$a}{10}[`x+`][_]{$b}{10}[`)(`][_]{$c}{10}[`x+`][_]{$a}{10}[`)\text{.}`]
 
 END_PGML
 

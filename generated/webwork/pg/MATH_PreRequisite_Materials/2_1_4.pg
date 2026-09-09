@@ -52,7 +52,7 @@ $great = 3;
 ############################################################
 
 BEGIN_PGML
-On a number line, [`\sqrt{5}`] would be placed between which two consecutive integers (whole numbers)? (Provide two consecutive integers (whole numbers).)
+On a number line, [`\sqrt{5}`] would be placed between which two consecutive integers? (Provide two consecutive integers.)
 
 [_]{$less}{10}[`\newcommand{\lt}{<}\lt \sqrt{5} \lt `][_]{$great}{10}
 

@@ -15,7 +15,7 @@
     </answer>
     <answer>
       <p>
-        <m>7</m>
+        <m>6</m>
       </p>
     </answer>
   </static>
@@ -69,7 +69,7 @@ Context("Fraction-NoDecimals");
 # Define the exact answer
 $a = 15;
 $b = 23;
-$c = 7;
+$c = 6;
 
 ############################################################
 # Body

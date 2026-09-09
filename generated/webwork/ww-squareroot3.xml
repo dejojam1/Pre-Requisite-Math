@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ww-squareroot3" assembly-id="ww-squareroot3">
   <static seed="29">
-    <statement><p>On a number line, <m>\sqrt{5}</m> would be placed between which two consecutive integers (whole numbers)? (Provide two consecutive integers (whole numbers).)</p>
+    <statement><p>On a number line, <m>\sqrt{5}</m> would be placed between which two consecutive integers? (Provide two consecutive integers.)</p>
 <p><fillin characters="10" name="AnSwEr0001"/><m>\lt \sqrt{5} \lt</m><fillin characters="10" name="AnSwEr0002"/></p>
 </statement>
     <answer>
@@ -71,7 +71,7 @@ $great = 3;
 ############################################################
 
 BEGIN_PGML
-On a number line, [`\sqrt{5}`] would be placed between which two consecutive integers (whole numbers)? (Provide two consecutive integers (whole numbers).)
+On a number line, [`\sqrt{5}`] would be placed between which two consecutive integers? (Provide two consecutive integers.)
 
 [_]{$less}{10}[`\newcommand{\lt}{<}\lt \sqrt{5} \lt `][_]{$great}{10}
 
